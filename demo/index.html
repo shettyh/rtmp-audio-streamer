@@ -1,0 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_cn" lang="zh_cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+    <title>rtmp streamer example</title>
+    <script data-main="main" src="require.js"></script>
+</head>
+<body style="text-align: center;">
+
+rtmp address:
+<input id="url" type="text" style="width: 400px;" value="rtmp://10.133.33.105:1935/nas" title="url">
+<input id="stream-name" type="text" style="width: 150px;" value="myStream" title="stream-name">
+
+<h2>Audio Streamer</h2>
+<div >
+	<object>
+		<embed id="rtmp-streamer" src="../RtmpStreamer.swf" quality="high" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" width="300" height="300"></embed>
+	</object> 
+	<button id="publish"> Start </button>
+	<button id="streamer-disconnect"> Stop</button>
+</div>
+<script lang="javascript">
+
+</script>
+
+</html>
